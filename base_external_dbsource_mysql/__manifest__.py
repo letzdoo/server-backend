@@ -11,5 +11,5 @@
     "depends": ["base_external_dbsource"],
     "external_dependencies": {"python": ["sqlalchemy", "mysqlclient"]},
     "demo": ["demo/base_external_dbsource.xml"],
-    "installable": True,
+    "installable": False,  # Disabled: mysqlclient fails to build
 }
