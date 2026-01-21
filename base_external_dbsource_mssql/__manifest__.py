@@ -19,5 +19,5 @@
         ]
     },
     "demo": ["demo/base_external_dbsource.xml"],
-    "installable": True,
+    "installable": False,  # Disabled: pymssql fails to build
 }
